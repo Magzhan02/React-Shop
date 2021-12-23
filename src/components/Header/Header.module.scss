@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 1px solid #eaeaea;
+
+  .left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+      margin-right: 15px;
+    }
+
+    .info {
+
+      h2,
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+
+    li {
+      margin-right: 15px;
+      cursor: pointer;
+
+      img {
+        margin: 0 5px 0 5px;
+      }
+    }
+  }
+}
