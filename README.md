@@ -21,6 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Axios
 * SASS(SCSS)
 * CSS Modules
+* react skeleton
 
 ## Backend: 
 [JSON Server](https://github.com/typicode/json-server)
