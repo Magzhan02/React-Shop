@@ -22,6 +22,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * SASS(SCSS)
 * CSS Modules
 * react skeleton
+# Live demo:
+link: https://react-sneakers-demo.herokuapp.com/
 
 ## Backend: 
 [JSON Server](https://github.com/typicode/json-server)
