@@ -26,8 +26,9 @@ export const setItemsAC = (items) => ({type: 'SET_ITEMS',payload: items})
 export const fetchItems = () => (dispatch) =>{
     axios.get(JSON_API)
     .then((res) => {
-      dispatch(setItemsAC(res.data));
+      dispatch(setItemsAC(res.data.items));
     })
+    
 }
 
 export default card
