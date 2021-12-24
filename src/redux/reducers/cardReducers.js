@@ -1,5 +1,5 @@
 import axios from "axios"
-
+import { JSON_API } from "../../helpers/Constants"
 const initialState = {
     items:[],
     isLoading: false,
@@ -24,7 +24,7 @@ export const setItemsAC = (items) => ({type: 'SET_ITEMS',payload: items})
 
 //redux-thunk
 export const fetchItems = () => (dispatch) =>{
-    axios.get('http://localhost:3001/items')
+    axios.get(JSON_API)
     .then((res) => {
       dispatch(setItemsAC(res.data));
     })

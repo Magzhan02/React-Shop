@@ -1,0 +1,1 @@
+export const JSON_API = 'https://react-sneakers-demo.herokuapp.com/api'
